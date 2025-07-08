@@ -167,3 +167,4 @@ C:\Users\rakes\Deploy\TodoApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Ru
 C:\Users\rakes\Deploy\TodoApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\rakes\Deploy\TodoApi\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\rakes\Deploy\TodoApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\rakes\Deploy\TodoApi\obj\Debug\net8.0\TodoApi.sourcelink.json

@@ -31,5 +31,11 @@ app.MapGet("/todos", async (AppDbContext dbContext) =>
     return Results.Ok(todos);
 });
 
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    dbContext.Database.EnsureCreated(); // Creates DB/tables if not already there
+    // OR use dbContext.Database.Migrate(); if using EF Migrations
+}
 app.Run();
 
